@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" client="site" type="template" method="upgrade">
+    <name>ecc.ck.ua</name>
+    <creationDate>2012-12-05</creationDate>
+    <version>2.5</version>
+
+    <files>
+        <folder>css</folder>
+        <folder>data</folder>
+        <folder>fields</folder>
+        <folder>html</folder>
+        <folder>images</folder>
+        <folder>language</folder>
+        <folder>library</folder>
+        <file>component.php</file>
+        <file>functions.php</file>
+        <file>index.html</file>
+        <file>index.php</file>
+        <file>jquery.js</file>
+        <file>script.js</file>
+        <file>script.responsive.js</file>
+        <file>templateDetails.xml</file>
+        <file>template_preview.png</file>
+        <file>template_thumbnail.png</file>
+    </files>
+    <positions>
+        <position>debug</position>
+        <position>position-1</position>
+        <position>position-2</position>
+        <position>position-4</position>
+        <position>position-5</position>
+        <position>position-7</position>
+        <position>position-9</position>
+        <position>position-10</position>
+    </positions>
+    <config>
+        <fields name="params" addfieldpath="/templates/333333/fields">
+            <fieldset name="basic">
+                <field name="siteTitle" type="text" size="50" label="TPL_SITE_TITLE" description="TPL_SITE_TITLE_DESCRIPTION"/>
+                <field name="siteSlogan" type="text" size="50" label="TPL_SITE_SLOGAN" description="TPL_SITE_SLOGAN_DESCRIPTION"/>
+                <field name="blogLayoutType" type="list" default="default" label="TPL_BLOG_LAYOUT_TYPE" description="TPL_BLOG_LAYOUT_TYPE_DESCRIPTION">
+                    <option value="default">Default</option>
+                    <option value="artisteer">Artisteer</option>
+                </field>
+                <field name="content" type="artcontent" label="TPL_CONTENT" text="TPL_INSTALL"/>
+            </fieldset>
+        </fields>
+    </config>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.tpl.ini</language>
+    </languages>
+</extension>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <categories>
+        <category id="1" title="Featured"/>
+        <category id="2" title="Articles"/>
+    </categories>
+    <articles>
+        <article id="1" category="1" title="Lorem ipsum" alias="article" path="/Blog Posts/post">
+            <![CDATA[<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell" style="padding-right: 10px;padding-left: 10px; width:100%" >
+        <div class="image-caption-wrapper" style="width: 55%; float: left"><img alt="an-image" style="width: 100%" class="art-lightbox" src="images/template-content/shutterstock_62287657-01-3.jpg"></div>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <p>Lorem dolor&nbsp;amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. <cite>cite</cite>. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</p>
+        <blockquote>
+        <p>“This stylesheet is going to help so freaking much.”<br>
+        -Blockquote</p>
+        </blockquote>
+        <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        </ul>
+        <table class="art-article">
+        <tbody>
+        <tr>
+        <th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
+        </tr>
+        <tr>
+        <td>Data</td>
+        <td>Data</td>
+        <td>Data</td>
+        </tr>
+        <tr class="even">
+        <td>Data</td>
+        <td>Data</td>
+        <td>Data</td>
+        </tr>
+        <tr>
+        <td>Data</td>
+        <td>Data</td>
+        <td>Data</td>
+        </tr>
+        </tbody>
+        </table>
+    </div>
+    </div>
+</div>
+]]>
+        </article>
+        <article id="2" category="1" title="Conse ctetur" alias="article-1" path="/Blog Posts/post-2">
+            <![CDATA[<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell" style="padding-right: 10px;padding-left: 10px; width:100%" >
+        <div class="image-caption-wrapper" style="width: 55%; float: left"><img alt="an image" style="width: 100%" class="art-lightbox" src="images/template-content/shutterstock_32050237.png"></div>
+        Lorem&nbsp;<sup>superscript</sup>&nbsp;dolor&nbsp;<sub>subscript</sub>&nbsp;amet, consectetuer adipiscing elit,&nbsp;<a href="#" title="test link">test link</a>. Nullam dignissim convallis est. Quisque aliquam.&nbsp;<cite>cite</cite>. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.&nbsp;
+        <p>Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy.&nbsp;<abbr title="National Basketball Association">NBA</abbr>&nbsp;Mauris a ante.&nbsp;</p>
+        <p>Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&nbsp;<abbr title="Avenue">AVE</abbr><br></p>
+    </div>
+    </div>
+</div>
+]]>
+        </article>
+        <article id="3" category="2" title="Home" alias="article-2" path="/головна">
+            <![CDATA[<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell" style="padding-right: 10px;padding-left: 10px; width:100%" >
+        <div class="image-caption-wrapper" style="width: 55%; float: left"><img alt="an image" style="width: 100%; max-width: 360px;" class="art-lightbox" src="images/template-content/shutterstock_44473723.jpg"></div>
+        Enter Page content here...
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet congue vulputate, nisi erat iaculis nibh, vitae feugiat sapien ante eget mauris.&nbsp;Aenean sollicitudin imperdiet arcu, vitae dignissim est posuere id.</p>
+        <p><a href="#">Read more</a></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell" style="padding-right: 10px;padding-left: 10px; width:50%" >
+        <ul>
+        <li>Suspendisse pharetra auctor pharetra. Nunc a sollicitudin est.</li>
+        <li>Donec vel neque in neque porta venenatis sed sit amet lectus.</li>
+        <li>Curabitur ullamcorper gravida felis, sit amet scelerisque lorem iaculis sed.</li>
+        </ul>
+    </div><div class="art-layout-cell" style="padding-right: 10px;padding-left: 10px; width:50%" >
+        <blockquote style="margin: 10px 0">Nunc a sollicitudin est. Curabitur ullamcorper gravida felis, sit amet scelerisque lorem iaculis sed. Donec vel neque in neque porta venenatis sed sit amet lectus.</blockquote>
+    </div>
+    </div>
+</div>
+]]>
+        </article>
+        <article id="4" category="2" title="Новая страница" alias="article-3" path="/діяльність">
+            <![CDATA[<div></div>]]>
+        </article>
+        <article id="5" category="2" title="Subpage 1" alias="article-4" path="/діяльність/new-page">
+            <![CDATA[<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell" style="padding-right: 10px;padding-left: 10px; width:100%" >
+        <p><br /></p>
+    </div>
+    </div>
+</div>
+]]>
+        </article>
+        <article id="6" category="2" title="Subpage 2" alias="article-5" path="/діяльність/new-page-2">
+            <![CDATA[<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell" style="padding-right: 10px;padding-left: 10px; width:100%" >
+        <p><br /></p>
+    </div>
+    </div>
+</div>
+]]>
+        </article>
+        <article id="7" category="2" title="Subpage 3" alias="article-6" path="/діяльність/new-page-3">
+            <![CDATA[<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell" style="padding-right: 10px;padding-left: 10px; width:100%" >
+        <p><br /></p>
+    </div>
+    </div>
+</div>
+]]>
+        </article>
+        <article id="8" category="2" title="Новая страница" alias="article-7" path="/ікц">
+            <![CDATA[<div></div>]]>
+        </article>
+        <article id="9" category="2" title="Новая страница" alias="article-8" path="/клуби">
+            <![CDATA[<p><br></p>]]>
+        </article>
+        <article id="10" category="2" title="Новая страница" alias="article-9" path="/маистер-класи">
+            <![CDATA[<p><br></p>]]>
+        </article>
+        <article id="11" category="2" title="Новая страница" alias="article-10" path="/проекти">
+            <![CDATA[<p><br></p>]]>
+        </article>
+        <article id="12" category="2" title="Blog Page" alias="article-11" path="/форум">
+            <![CDATA[<article class="art-post art-article">
+                                <h2 class="art-postheader"><a href="#">Conse ctetur</a>
+                                </h2>
+                                                <div class="art-postheadericons art-metadata-icons">
+                    <span class="art-postdateicon"></span>
+                     | <span class="art-postauthoricon"> <a href="#" title="Posts by Admin">Admin</a></span>
+                     | <span class="art-postediticon"></span>
+                                    </div>
+                <div class="art-postcontent art-postcontent-0 clearfix" >
+<div class="art-content-layout">
+<div class="art-content-layout-row">
+<div class="art-layout-cell" style="padding-right: 10px;padding-left: 10px; width:100%">
+<div class="image-caption-wrapper" style="width: 55%; float: left"><img alt="an image" style="width: 100%" class="art-lightbox" src="images/template-content/shutterstock_32050237.png"></div>
+Lorem&nbsp;<sup>superscript</sup>&nbsp;dolor&nbsp;<sub>subscript</sub>&nbsp;amet, consectetuer adipiscing elit,&nbsp;<a href="#" title="test link">test link</a>. Nullam dignissim convallis est. Quisque aliquam.&nbsp;<cite>cite</cite>. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.&nbsp;
+<p>Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor.</p>
+</div>
+</div>
+</div><br /><a href="#">Далее...</a>
+                </div>
+</article>
+<article class="art-post art-article">
+                                <h2 class="art-postheader"><a href="#">Lorem ipsum</a>
+                                </h2>
+                                                <div class="art-postheadericons art-metadata-icons">
+                    <span class="art-postdateicon"></span>
+                     | <span class="art-postauthoricon"> <a href="#" title="Posts by Admin">Admin</a></span>
+                     | <span class="art-postediticon"></span>
+                                    </div>
+                <div class="art-postcontent art-postcontent-1 clearfix" >
+<div class="art-content-layout">
+<div class="art-content-layout-row">
+<div class="art-layout-cell" style="padding-right: 10px;padding-left: 10px; width:100%">
+<div class="image-caption-wrapper" style="width: 55%; float: left"><img alt="an-image" style="width: 100%" class="art-lightbox" src="images/template-content/shutterstock_62287657-01-3.jpg"></div>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+<p>Lorem dolor&nbsp;amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. <cite>cite</cite>. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</p>
+</div>
+</div>
+</div><br /><a href="#">Далее...</a>
+                </div>
+</article>
+]]>
+        </article>
+        <article id="13" category="2" title="Новая страница" alias="article-12" path="/про-нас">
+            <![CDATA[<p><br></p>]]>
+        </article>
+    </articles>
+    <menus>
+        <menu id="1" name="ct-horizontal-menu" title="Content / Horizontal Menu"/>
+        <menu id="2" name="ct-vertical-menu" title="Content / Vertical Menu"/>
+        <menu id="3" name="ct-special-menu" title="Content / Special Menu"/>
+    </menus>
+    <menuitems>
+        <menuitem id="1" menu="ct-horizontal-menu" title="Головна" alias="ct-menu-item-1" path="/головна" menutype="hmenu" type="single-article" article="3" showTitle="yes" category="1" default="1"/>
+        <menuitem id="2" menu="ct-vertical-menu" title="Головна" alias="ct-menu-item-2" path="/головна" menutype="vmenu" type="single-article" article="3" showTitle="yes" category="1"/>
+        <menuitem id="3" menu="ct-horizontal-menu" title="Діяльність" alias="ct-menu-item-3" path="/діяльність" menutype="hmenu" type="single-article" article="4" showTitle="yes" category="1"/>
+        <menuitem id="4" menu="ct-vertical-menu" title="Діяльність" alias="ct-menu-item-4" path="/діяльність" menutype="vmenu" type="single-article" article="4" showTitle="yes" category="1"/>
+        <menuitem id="5" menu="ct-horizontal-menu" title="Субстраничка №1" alias="ct-menu-item-5" path="/діяльність/new-page" menutype="hmenu" type="single-article" parent="3" article="5" showTitle="yes" category="1"/>
+        <menuitem id="6" menu="ct-vertical-menu" title="Субстраничка №1" alias="ct-menu-item-6" path="/діяльність/new-page" menutype="vmenu" type="single-article" parent="4" article="5" showTitle="yes" category="1"/>
+        <menuitem id="7" menu="ct-horizontal-menu" title="Субстраничка №2" alias="ct-menu-item-7" path="/діяльність/new-page-2" menutype="hmenu" type="single-article" parent="3" article="6" showTitle="yes" category="1"/>
+        <menuitem id="8" menu="ct-vertical-menu" title="Субстраничка №2" alias="ct-menu-item-8" path="/діяльність/new-page-2" menutype="vmenu" type="single-article" parent="4" article="6" showTitle="yes" category="1"/>
+        <menuitem id="9" menu="ct-horizontal-menu" title="Субстраничка №3" alias="ct-menu-item-9" path="/діяльність/new-page-3" menutype="hmenu" type="single-article" parent="3" article="7" showTitle="yes" category="1"/>
+        <menuitem id="10" menu="ct-vertical-menu" title="Субстраничка №3" alias="ct-menu-item-10" path="/діяльність/new-page-3" menutype="vmenu" type="single-article" parent="4" article="7" showTitle="yes" category="1"/>
+        <menuitem id="11" menu="ct-horizontal-menu" title="ІКЦ" alias="ct-menu-item-11" path="/ікц" menutype="hmenu" type="single-article" article="8" showTitle="yes" category="1"/>
+        <menuitem id="12" menu="ct-vertical-menu" title="ІКЦ" alias="ct-menu-item-12" path="/ікц" menutype="vmenu" type="single-article" article="8" showTitle="yes" category="1"/>
+        <menuitem id="13" menu="ct-horizontal-menu" title="Клуби" alias="ct-menu-item-13" path="/клуби" menutype="hmenu" type="single-article" article="9" showTitle="yes" category="1"/>
+        <menuitem id="14" menu="ct-vertical-menu" title="Клуби" alias="ct-menu-item-14" path="/клуби" menutype="vmenu" type="single-article" article="9" showTitle="yes" category="1"/>
+        <menuitem id="15" menu="ct-horizontal-menu" title="Майстер-класи" alias="ct-menu-item-15" path="/маистер-класи" menutype="hmenu" type="single-article" article="10" showTitle="yes" category="1"/>
+        <menuitem id="16" menu="ct-vertical-menu" title="Майстер-класи" alias="ct-menu-item-16" path="/маистер-класи" menutype="vmenu" type="single-article" article="10" showTitle="yes" category="1"/>
+        <menuitem id="17" menu="ct-horizontal-menu" title="Проекти" alias="ct-menu-item-17" path="/проекти" menutype="hmenu" type="single-article" article="11" showTitle="yes" category="1"/>
+        <menuitem id="18" menu="ct-vertical-menu" title="Проекти" alias="ct-menu-item-18" path="/проекти" menutype="vmenu" type="single-article" article="11" showTitle="yes" category="1"/>
+        <menuitem id="19" menu="ct-horizontal-menu" title="Форум" alias="ct-menu-item-19" path="/форум" menutype="hmenu" type="category-blog-layout" category="1"/>
+        <menuitem id="20" menu="ct-vertical-menu" title="Форум" alias="ct-menu-item-20" path="/форум" menutype="vmenu" type="category-blog-layout" category="1"/>
+        <menuitem id="21" menu="ct-horizontal-menu" title="Про нас" alias="ct-menu-item-21" path="/про-нас" menutype="hmenu" type="single-article" article="13" showTitle="yes" category="1"/>
+        <menuitem id="22" menu="ct-vertical-menu" title="Про нас" alias="ct-menu-item-22" path="/про-нас" menutype="vmenu" type="single-article" article="13" showTitle="yes" category="1"/>
+        <menuitem id="23" menu="ct-special-menu" title="Special Blog Page" alias="ct-menu-item-23" menutype="menu" type="category-blog-layout" category="1"/>
+        <menuitem id="24" menu="ct-special-menu" title="Special Single Page" alias="ct-menu-item-24" menutype="menu" type="single-article" showTitle="yes" category="1"/>
+    </menuitems>
+    <modules>
+        <module id="1" title="Content / Horizontal Menu" showTitle="true" position="position-1" type="menu" menu="ct-horizontal-menu"/>
+        <module id="2" title="Пошук по сайту" showTitle="true" position="position-7" type="custom">
+            <![CDATA[<p> </p>
+<form class="art-search" name="Search" action="#" id="Search"><input type="text"><input class="art-search-button" type="submit" name="search" value=""></form>
+<br>
+<p>                                  </p>]]>
+        </module>
+        <module id="3" title="Новини" showTitle="true" position="position-7" type="custom">
+            <![CDATA[<div>
+  <p>Lorem ipsum dolor sit amet. Nam sit amet sem. Mauris a ante.</p>
+  <ul>
+    <li>
+      <a href="#" title="All News">All News</a> (50)
+    </li>
+    <li>
+      <a href="#" title="Best of the Year">Best of the Year</a> (4)
+    </li>
+    <li>
+      <a href="#" title="Hyperlink">Hyperlink</a> (24)
+    </li>
+    <li>
+      <a href="#" title="Visited link" class="visited">Visited link</a> (17)
+    </li>
+    <li>
+      <a href="#" title="Hovered link" class="hover">Hovered link</a> (6)
+    </li>
+  </ul>
+</div>]]>
+        </module>
+        <module id="4" title="Блок меценатів" showTitle="true" position="position-7" type="custom">
+            <![CDATA[<p><br></p>]]>
+        </module>
+        <module id="5" title="Соц. блок" showTitle="true" position="position-7" type="custom">
+            <![CDATA[<p><a href="" class="art-rss-tag-icon" style="line-height: 38px;">Подписка на RSS</a><br></p>]]>
+        </module>
+        <module id="6" title="Footer" showTitle="false" position="position-27" type="custom">
+            <![CDATA[
+  <div class="art-footer-inner">
+<p><a href="#">Link1</a> | <a href="#">Link2</a> | <a href="#">Link3</a></p>
+<p>Copyright © 2012. All Rights Reserved.</p>
+  </div>
+]]>
+        </module>
+    </modules>
+    <parameters>
+        <parameter id="1" name="siteTitle" value="Експерементальний"/>
+        <parameter id="2" name="siteSlogan" value="Творчий"/>
+        <parameter id="3" name="blogLayoutType" value="artisteer"/>
+    </parameters>
+</data>
