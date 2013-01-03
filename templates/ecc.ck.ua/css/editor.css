@@ -444,9 +444,11 @@ blockquote p, blockquote p
   margin: 5px 0;
 }
 
-/* Created by Artisteer vundefined.undefined.undefined.undefined */
+ /*Created by Artisteer vundefined.undefined.undefined.undefined
 
-/* Compatibility rules for the default TinyMCE skin: */
+
+ Compatibility rules for the default TinyMCE skin:
+*/
 td 
 { 
     color: inherit; 

@@ -44,46 +44,50 @@ JHtml::_('behavior.framework', true);
     <script>if (document._artxJQueryBackup) jQuery = document._artxJQueryBackup;</script>
     <script src="<?php echo $templateUrl; ?>/script.responsive.js"></script>
 </head>
+
+
 <body>
 
 <div id="art-main">
-<header class="art-header clearfix"><?php echo $view->position('position-30', 'art-nostyle'); ?>
+    <header class="art-header clearfix"><?php echo $view->position('position-30', 'art-nostyle'); ?>
 
 
     <div class="art-shapes">
 <h1 class="art-headline" data-left="20.28%">
-    <a href="<?php echo $document->baseurl; ?>/"><?php echo $this->params->get('siteTitle'); ?></a>
+    <a href="<?php /*echo $document->baseurl; */?>/"><?php /*echo $this->params->get('siteTitle'); */?></a>
 </h1>
-<h2 class="art-slogan" data-left="18.38%"><?php echo $this->params->get('siteSlogan'); ?></h2>
+<h2 class="art-slogan" data-left="18.38%"><?php /*echo $this->params->get('siteSlogan'); */?></h2>
 
-<div class="art-object1359748682" data-left="0%"></div>
+<div class="art-logo" data-left="0%"></div>
 
             </div>
 
-                        
+
                     
-</header>
+    </header>
 
 
 
 
 <?php if ($view->containsModules('position-1', 'position-28', 'position-29')) : ?>
-<nav class="art-nav clearfix">
+    <nav class="art-nav clearfix">
     
-<?php if ($view->containsModules('position-28')) : ?>
-<div class="art-hmenu-extra1"><?php echo $view->position('position-28'); ?></div>
-<?php endif; ?>
-<?php if ($view->containsModules('position-29')) : ?>
-<div class="art-hmenu-extra2"><?php echo $view->position('position-29'); ?></div>
-<?php endif; ?>
-<?php echo $view->position('position-1'); ?>
+        <?php if ($view->containsModules('position-28')) : ?>
+        <div class="art-hmenu-extra1"><?php echo $view->position('position-28'); ?></div>
+        <?php endif; ?>
+        <?php if ($view->containsModules('position-29')) : ?>
+        <div class="art-hmenu-extra2"><?php echo $view->position('position-29'); ?></div>
+        <?php endif; ?>
+        <?php echo $view->position('position-1'); ?>
  
     </nav>
 <?php endif; ?>
+
 <div class="art-sheet clearfix">
             <?php echo $view->position('position-15', 'art-nostyle'); ?>
 <?php echo $view->positions(array('position-16' => 33, 'position-17' => 33, 'position-18' => 34), 'art-block'); ?>
-<div class="art-layout-wrapper clearfix">
+
+    <div class="art-layout-wrapper clearfix">
                 <div class="art-content-layout">
                     <div class="art-content-layout-row">
                         <div class="art-layout-cell art-content clearfix">
@@ -91,8 +95,8 @@ JHtml::_('behavior.framework', true);
   echo $view->position('position-19', 'art-nostyle');
   if ($view->containsModules('position-2'))
     echo artxPost($view->position('position-2'));
-  echo $view->positions(array('position-20' => 50, 'position-21' => 50), 'art-article');
-  echo $view->position('position-12', 'art-nostyle');
+  echo $view->positions(array('position-20' => 50, 'position-21' => 50), 'art-article');*/
+  echo $view->position('position-12', 'art-nostyle');*/
   echo artxPost(array('content' => '<jdoc:include type="message" />', 'classes' => ' art-messages'));
   echo '<jdoc:include type="component" />';
   echo $view->position('position-22', 'art-nostyle');
@@ -122,7 +126,13 @@ JHtml::_('behavior.framework', true);
 
 
     </div>
-<footer class="art-footer clearfix"><?php echo $view->position('position-27', 'art-nostyle'); ?></footer>
+
+
+
+
+
+
+    <footer class="art-footer clearfix"><?php echo $view->position('position-27', 'art-nostyle'); ?></footer>
 
 </div>
 
