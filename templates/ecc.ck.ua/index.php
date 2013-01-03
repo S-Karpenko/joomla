@@ -63,7 +63,7 @@ JHtml::_('behavior.framework', true);
             </div>
 
 
-                    
+
     </header>
 
 
@@ -95,8 +95,8 @@ JHtml::_('behavior.framework', true);
   echo $view->position('position-19', 'art-nostyle');
   if ($view->containsModules('position-2'))
     echo artxPost($view->position('position-2'));
-  echo $view->positions(array('position-20' => 50, 'position-21' => 50), 'art-article');*/
-  echo $view->position('position-12', 'art-nostyle');*/
+  echo $view->positions(array('position-20' => 50, 'position-21' => 50), 'art-article');
+  echo $view->position('position-12', 'art-nostyle');
   echo artxPost(array('content' => '<jdoc:include type="message" />', 'classes' => ' art-messages'));
   echo '<jdoc:include type="component" />';
   echo $view->position('position-22', 'art-nostyle');
