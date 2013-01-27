@@ -360,7 +360,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
   margin-right: 0 !important;
 }
 
-.art-object1359748682
+.art-logo
 {
   display: block;
   left: 0%;
@@ -369,7 +369,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
   top: 17px;
   width: 170px;
   height: 108px;
-  background-image: url('../images/object1359748682.png');
+  background-image: url('../images/logo.png');
   background-position: 0 0;
   background-repeat: no-repeat;
   z-index: 0;
@@ -543,8 +543,8 @@ ul.art-hmenu
 {
   display: inline-block;
   vertical-align: middle;
-  padding-left: 10px;
-  padding-right: 10px;
+ /* padding-left: 10px;
+  padding-right: 10px;*/
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -615,7 +615,7 @@ ul.art-hmenu>li>a
   -webkit-border-radius: 0 10px;
   -moz-border-radius: 0 10px;
   border-radius: 0 10px;
-  padding: 0 22px;
+  padding: 0 18px;
   margin: 0 auto;
   position: relative;
   display: block;
@@ -651,7 +651,7 @@ ul.art-hmenu>li>a.active
   -webkit-border-radius: 0 10px;
   -moz-border-radius: 0 10px;
   border-radius: 0 10px;
-  padding: 0 22px;
+  padding: 0 18px;
   margin: 0 auto;
   color: #FFFFFF;
   text-decoration: none;
@@ -675,7 +675,7 @@ ul.art-hmenu>li>a:hover, .desktop ul.art-hmenu>li:hover>a
   -webkit-border-radius: 0 10px;
   -moz-border-radius: 0 10px;
   border-radius: 0 10px;
-  padding: 0 22px;
+  padding: 0 18px;
   margin: 0 auto;
 }
 
